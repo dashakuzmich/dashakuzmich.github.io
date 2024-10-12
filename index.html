@@ -19,12 +19,9 @@
         <main class="main">
             <section class="home">
                 <div class="home__content">
-                    <div class="home__content-logo">
-
-                    </div>
                     <div class="home__content-btn">
                         <a href="/">
-                            <div class="main-btn">
+                            <div class="main-btn wow" >
                                 <p>Оставить заявку</p>
                             </div>
                         </a>
@@ -36,14 +33,14 @@
                 <div class="about__content">
                     <div class="about__content-main">
                         <div class="about__content-title">
-                            <img src="./src/ico/about.svg" alt="about" class="about-title">
+                            <img src="./src/ico/about.svg" alt="about" class="about-title wow">
                         </div>
-                        <p class="about__content-subtitle">
+                        <p class="about__content-subtitle wow">
                             Digital агенство LEM <br>
                             Мы знаем, что у вас болит и как это решить
                         </p>
                     </div>
-                    <p class="about__content-discription">
+                    <p class="about__content-discription wow">
                         мы создаем
                         <span>понятный<br>
                             и структурный контент,</span>
@@ -65,22 +62,20 @@
                         </div>
                         <div class="about__content-infographics--item">
                             <div class="item-ico"><img src="./src/ico/medal.svg" alt="ico" class="medal"></div>
-
                             <p class="item-discription">Успешное<br> продвижение<br> бренда</p>
                         </div>
                         <div class="about__content-infographics--item">
                             <div class="item-ico"><img src="./src/ico/hands.svg" alt="ico" class="hands"></div>
-
                             <p class="item-discription">Команда, <br>которой доверяют</p>
                         </div>
                     </div>
                     <div class="about__banner">
-                        <p class="banner">В наших проектах логика<br>
+                        <p class="banner">В наших проектах логика
                             и эмоции сплетаются в одно</p>
                     </div>
                 </div>
             </section>
-            <section class="founders">
+           <section class="founders">
                 <div class="founders__content">
                     <p class="founders__content-title">
                         ОСНОВАТЕЛИ
@@ -109,7 +104,7 @@
                     </div>
                 </div>
             </section>
-            <section class="spheres">
+            <!-- <section class="spheres">
                 <div class="spheres__content">
                     <div class="small-cloud">
                         <img src="./src/img/smallCloud.png" alt="cloud" class="small__cloud">
@@ -242,7 +237,7 @@
                     </div>
                 </div>
             </section>
-            <!-- <a name="cases"></a>
+            <a name="cases"></a>
             <section class="cases">
                 <div class="cases__content">
                     <p class="cases__content-title">
@@ -320,6 +315,10 @@
         </main>
     </div>
     <script src="./src/js/index.js"></script>
+    <script src="./src/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>

@@ -14,6 +14,7 @@ p {
 }
 .container {
   margin: 0 auto;
+  max-width: 1520px;
   background-image: url(../img/bcg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,24 +45,17 @@ p {
   border-bottom: 2px solid white;
 }
 .home__content {
-  width: 100%;
-  height: 100vh;
-}
-.home__content-logo {
-  width: 100%;
-  height: 480px;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 .home__content-btn {
-  width: 93%;
-  height: 250px;
-  position: relative;
+  margin-left: 70%;
+  margin-top: 35%;
 }
 .main-btn {
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  right: 0%;
   background-image: url(../ico/btn.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -76,11 +70,12 @@ p {
   font-size: 24px;
   width: 200px;
 }
-
 .about__content {
-  margin-top: 93px;
+  margin: 7% auto 0 ;
 }
 .about__content-main {
+  margin: 0 auto;
+  max-width: 1440px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -90,6 +85,15 @@ p {
   color: white;
   font-weight: 600;
   font-size: 36px;
+}
+.wow {
+  opacity: 0;
+  transform: translateY(1em);
+  transition: all 0.7s 0.7s ease-out;
+}
+.animated {
+  opacity: 1;
+  transform: none;
 }
 .about__content-discription {
   margin-top: 105px;
@@ -101,7 +105,7 @@ p {
 .about__content-discription span {
   font-family: "arial";
   color: transparent;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #4e4e4e;
 }
 .about__content-stars {
@@ -117,20 +121,17 @@ p {
   overflow: hidden;
 }
 .about__content-stars img:first-child {
-  /* position: absolute; */
   rotate: -25deg;
   width: 100px;
   height: 100px;
 }
 .about__content-stars img:nth-child(2) {
-  /* position: absolute; */
   rotate: 25deg;
   width: 350px;
   height: 350px;
   object-fit: cover;
 }
 .about__content-stars img:last-child {
-  /* position: absolute; */
   rotate: 35deg;
   width: 100px;
   height: 100px;
@@ -139,9 +140,10 @@ p {
   margin-left: 80px;
 }
 .about__content-infographics {
-  margin-top: 130px;
+  margin-top: 10%;
   display: flex;
   justify-content: center;
+  align-items: start;
   gap: 70px;
 }
 .about__content-infographics--item {
@@ -152,15 +154,15 @@ p {
 }
 .about__content-infographics--item p {
   margin-top: 20px;
+width: 300px;
 }
 .banner {
   color: #ffffff;
   font-weight: 900;
   font-size: 71px;
   text-align: center;
-  margin-top: 225px;
+  margin-top: 15%;
 }
-
 .founders__content-title {
   margin-top: 205px;
   color: #ffffff;
@@ -368,40 +370,6 @@ p {
 .elem__group:nth-child(2n) {
   margin-top: -230px;
 }
-.about__content-stars {
-  position: relative;
-}
-.about__content-stars--item {
-  margin-top: -130px;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  right: 0px;
-  width: 200px;
-  overflow: hidden;
-}
-.about__content-stars img:first-child {
-  /* position: absolute; */
-  rotate: -25deg;
-  width: 100px;
-  height: 100px;
-}
-.about__content-stars img:nth-child(2) {
-  /* position: absolute; */
-  rotate: 25deg;
-  width: 350px;
-  height: 350px;
-  object-fit: cover;
-}
-.about__content-stars img:last-child {
-  /* position: absolute; */
-  rotate: 35deg;
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  margin-top: 40px;
-  margin-left: 80px;
-}
 .services__content-stars {
   position: relative;
 }
@@ -537,7 +505,7 @@ p {
 @media (max-width: 1280px) {
   .header {
     padding-top: 20px;
-    max-width: 1240px;
+    max-width: 1220px;
     font-size: 24px;
   }
   .header__list {
@@ -547,20 +515,70 @@ p {
   .header__list:hover {
     border-bottom: 1px solid white;
   }
-  .home__content-logo {
-    height: 450px;
-  }
   .home__content-btn {
-    height: 250px;
+    margin-left: 68%;
+  margin-top: 34%;
   }
   .main-btn {
-    width: 300px;
-    height: 250px;
+    width: 325px;
+    height: 225px;
+  }
+  .about__content {
+    margin-top: 5%;
+  }
+  .about__content-main {
+    max-width: 1220px;
+    gap: 50px;
+  }
+  .about-title {
+    width: 600px;
+  }
+  .about__content-subtitle {
+    font-size: 28px;
+  }
+  .about__content-discription {
+    margin-top: 105px;
+    font-size: 64px;
+  }
+  .about__content-stars--item {
+    margin-top: -100px;
+    margin-right: -50px;
+  }
+  .about__content-stars img:first-child {
+    width: 80px;
+    height: 80px;
+  }
+  .about__content-stars img:nth-child(2) {
+    margin-top: -20px;
+    width: 270px;
+    height: 270px;
+  }
+  .about__content-stars img:last-child {
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+  .about__content-infographics {
+    margin-top: 5%;
+    gap: 50px;
+  }
+  .about__content-infographics--item {
+    font-size: 20px;
+  }
+  .about__content-infographics--item p{
+    width: 200px;
+  }
+  .item-ico img {
+    width: 150px;
+  }
+  .banner {
+    font-size: 58px;
   }
 }
 @media (max-width: 769px) {
   .container {
-    background-image: url(../img/bcgMobile.png);
+    background-image: url(../img/bcgPlansh.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -577,54 +595,153 @@ p {
     border-bottom: 1px solid white;
   }
   .home__content-btn {
-    height: 200px;
+    margin-left: 43%;
+  margin-top: 87%;
   }
   .main-btn {
-    bottom: -250px;
-    right: 30px;
     width: 300px;
-    height: 250px;
+    height: 200px;
   }
   .main-btn p {
     font-weight: 700;
     font-size: 22px;
   }
+  .about__content {
+    margin-top: 25%;
+  }
+  .about__content-main {
+    max-width: 740px;
+    gap: 30px;
+  }
+  .about-title {
+    width: 380px;
+  }
+  .about__content-subtitle {
+    font-size: 20px;
+  }
+  .about__content-discription {
+    margin-top: 135px;
+    font-size: 52px;
+  }
+  .about__content-stars--item {
+    margin-top: 100px;
+  }
+  .about__content-infographics {
+    margin-top: 70%;
+    gap: 15px;
+  }
+  .about__content-infographics--item {
+    font-size: 16px;
+  }
+  .about__content-infographics--item:nth-child(2) {
+    margin-top: -150px;
+  }
+  .item-ico img {
+    width: 120px;
+  }
+  .banner {
+    margin: 28% auto 0;
+    font-size: 57px;
+    width: 690px;
+  }
 }
-@media (max-width: 450px) {
-  .home__content-logo {
-    height: 250px;
-  }
-  .main-btn {
-    bottom: -100px;
-    width: 200px;
-  }
-  .main-btn p {
-    font-size: 18px;
-    width: 100px;
-  }
-}
-@media (max-width: 376px) {
+@media (max-width: 431px) {
   .container {
     background-image: url(../img/bcgMobile.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
   .header {
-    padding-top: 17px;
-    max-width: 740px;
-    font-size: 16px;
+    padding-top: 25px;
+    max-width: 400px;
+    font-size: 20px;
   }
   .header__list {
     margin-left: 7px;
   }
-  .home__content {
-    height: 390px;
-  }
-  .home__content-logo {
-    height: 250px;
-  }
   .home__content-btn {
-    height: 100px;
+    margin-top: 110%;
+    margin-left: 25%;
+  }
+  .main-btn {
+    width: 250px;
+    height: 140px;
+  }
+  .main-btn p {
+    font-size: 16px;
+    width: 100px;
+  }
+  .about__content {
+    margin-top: 40%;
+  }
+  .about__content-main {
+    flex-direction: column;
+    max-width: 400px;
+    gap: 15px;
+  }
+  .about-title {
+    margin: 0 auto;
+    width: 300px;
+  }
+  .about__content-subtitle {
+    text-align: center;
+    font-size: 18px;
+    width: 300px;
+  }
+  .about__content-discription {
+    margin: 70px auto 0;
+    font-size: 32px;
+    width: 350px;
+  }
+  .about__content-discription span {
+    -webkit-text-stroke-width: 1px;
+  }
+  .about__content-stars--item {
+    margin-top: 50px;
+    margin-right: -130px;
+  }
+  .about__content-stars img:first-child {
+    width: 50px;
+    height: 50px;
+  }
+  .about__content-stars img:nth-child(2) {
+    margin-top: -20px;
+    width: 170px;
+    height: 170px;
+  }
+  .about__content-stars img:last-child {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  .about__content-infographics {
+    margin: 60% auto 0;
+    gap: 15px;
+  }
+  .about__content-infographics--item {
+    font-size: 12px;
+  }
+  .about__content-infographics--item p{
+    width: 120px;
+    font-size: 14px;
+  }
+  .about__content-infographics--item:nth-child(2) {
+    margin-top: -100px;
+  }
+  .item-ico img {
+    width: 80px;
+  }
+  .banner {
+    font-size: 34px;
+    width: 350px;
+  }
+}
+@media (max-width: 376px) {
+  .header {
+    padding-top: 17px;
+    max-width: 350px;
+    font-size: 16px;
   }
   .main-btn {
     bottom: -100px;
@@ -636,8 +753,6 @@ p {
     font-weight: 700;
     font-size: 14px;
     width: 100px;
-  }
-  .about__content {
   }
   .about__content-main {
     display: flex;
@@ -668,9 +783,6 @@ p {
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #4e4e4e;
-  }
-  .about__content-stars {
-    position: relative;
   }
   .about__content-stars--item {
     margin-top: -70px;
