@@ -334,7 +334,7 @@ p {
 }
 .services__content-grid {
   display: grid;
-  grid-template-columns: repeat(2, 700px);
+  grid-template-columns: repeat(2, 720px);
   grid-template-rows: repeat(2, 500px);
   row-gap: 40px;
 }
@@ -354,7 +354,7 @@ p {
   justify-content: center;
   align-items: center;
   height: 500px;
-  width: 750px;
+  width: 720px;
 }
 .elem__group {
   display: flex;
@@ -403,7 +403,7 @@ p {
   object-fit: cover;
 }
 .cases__content {
-  margin: 30% auto 10%;
+  margin: 30% auto 30px;
   max-width: 1440px;
 }
 .cases__content-title {
@@ -453,6 +453,7 @@ p {
   width: 260px;
 }
 .vacancy__content {
+  margin-top: 10%;
   padding-bottom: 70px;
 }
 .vacancy__content-title {
