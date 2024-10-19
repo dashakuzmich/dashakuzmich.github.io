@@ -5,14 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="icon" href="./src/img/favicon.png" type="image/x-icon">
     <title>LEM</title>
 </head>
 
 <body>
-<div id="loader">
-    <img src="./src/img/photo_2024-10-07_16-07-17.jpg" alt="photo">
-</div>
-    <div class="container">
+    <div id="loader">
+        <img src="./src/img/photo_2024-10-07_16-07-17.jpg" alt="photo">
+        <div id="loaderPercent">
+            <div id="progress"></div>
+            <div id="percentage">0%</div>
+        </div>
+    </div>
+    <div class="container" id="container">
         <header class="header">
             <nav class="header__list"><a href="#about">О нас</a></nav>
             <nav class="header__list"><a href="#services">Услуги</a></nav>
@@ -265,8 +270,10 @@
             <a name="vacancy"></a>
             <section class="vacancy">
                 <div class="vacancy__content">
-                    <div class="vacancy__content-title">
-                        <img src="./src/ico/vacancy.svg" alt="vacancy" class="wow">
+                    <div class="vacancy__content-main">
+                        <div class="vacancy__content-title">
+                            <img src="./src/ico/vacancy.svg" alt="vacancy" class="vacancy-title wow">
+                        </div>
                         <p class="vacancy__content-subtitle">
                             ПОЧЕМУ КЛАССНО РАБОТАТЬ С НАМИ?
                         </p>
