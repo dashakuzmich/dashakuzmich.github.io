@@ -241,7 +241,7 @@ p {
   height: 590px;
 }
 .spheres__content {
-  margin-top: 320px;
+  margin-top: 340px;
   position: relative;
 }
 .small-cloud {
@@ -303,7 +303,7 @@ p {
 }
 .spheres-item p {
   text-shadow: 0px 2px 4px #00000067;
-  width: 450px;
+  width: 400px;
 }
 .spheres-item span {
   color: #ffffff;
@@ -313,7 +313,6 @@ p {
   margin-top: 5px;
 }
 .first-line {
-  margin-top: 100px;
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -511,7 +510,7 @@ p {
 }
 .vacancy__content-btn {
   margin-left: 55%;
-  margin-top: -250px;
+  margin-top: -200px;
 }
 .vacancy-btn {
   display: flex;
@@ -520,8 +519,8 @@ p {
   background-image: url(../ico/vacancyBtn.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 400px;
-  height: 150px;
+  width: 490px;
+  height: 180px;
 }
 .vacancy-btn p {
   text-align: center;
