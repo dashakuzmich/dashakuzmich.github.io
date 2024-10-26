@@ -1,8 +1,8 @@
 setTimeout(function () {
   document.getElementById("loader").style.display = "none";
   document.getElementById("container").style.visibility = "visible";
-}, 3000);
-const totalDuration = 3000; // 3 секунды
+}, 2000);
+const totalDuration = 2000; // 3 секунды
 const progressElement = document.getElementById('progress');
 const percentageElement = document.getElementById('percentage');
 let startTime = null;
