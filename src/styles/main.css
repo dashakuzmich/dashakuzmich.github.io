@@ -303,7 +303,7 @@ p {
 }
 .spheres-item p {
   text-shadow: 0px 2px 4px #00000067;
-  width: 400px;
+  width: 350px;
 }
 .spheres-item span {
   color: #ffffff;
@@ -779,6 +779,8 @@ p {
     margin-top: -180px;
   }
   .vacancy-btn {
+    width: 400px;
+    height: 150px;
   }
   .vacancy-btn p {
     font-size: 20px;
