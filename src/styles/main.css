@@ -1372,7 +1372,7 @@ p {
     max-width: 740px;
   }
   .about__content-infographics {
-    margin-top: 450px;
+    margin-top: 500px;
     gap: 15px;
   }
   .about__content-infographics--item {
@@ -1430,18 +1430,18 @@ p {
     height: 500px;
   }
   .spheres__content {
-    margin-top: 130px;
+    margin-top: 160px;
   }
   .services__content-main {
     max-width: 740px;
     gap: 30px;
-    margin-top: 150px;
+    margin-top: 170px;
   }
   .services__content-stars--item {
     top: 200px;
   }
   .cases__content {
-    margin: 350px auto 0;
+    margin: 370px auto 0;
     max-width: 740px;
   }
   .cases__content-title {
@@ -1460,8 +1460,8 @@ p {
     font-size: 24px;
   }
   .vacancy__content {
-    margin-top: 280px;
-    padding-bottom: 10px;
+    margin-top: 320px;
+    padding-bottom: 30px;
   }
   .vacancy__content-title {
     margin-left: 0px;
