@@ -1,14 +1,24 @@
-<?php 
+<?php
 
-$dbc = mysqli_connect('localhost', 'u2789117_default', 'BSireZ4K4qg8HD7g', 'u2789117_default');
-$data = json_decode(file_get_contents{'php://input'}, true);
-$fio = $data['fio'];
-$email = $data['email'];
-$tel - $data['tel'];
+header("Content-Type: application/json");
+include('connect.php'); // Подключаем файл с настройками БД
 
-$query = "INSERT INTO u2789117_bd (fio, email, tel)
-VALUES ('$fio', '$email', '$tel')";
+// Получаем данные из POST-запроса
+$fio = $_POST['fio'];
+$email = $_POST['email'];
+$tel = $_POST['tel'];
 
-$result = mysqli_query($dbc, $query);
+// SQL-запрос для вставки данных
+$sql = "INSERT INTO users (fio, email, tel) VALUES (?, ?, ?)";
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("sss", $fio, $email, $tel);
 
-mysqli_close($dbc);
+if ($stmt->execute()) {
+    echo json_encode(["message" => "Данные успешно добавлены"]);
+} else {
+    echo json_encode(["error" => "Ошибка при добавлении данных: " . $stmt->error]);
+}
+
+$stmt->close();
+$conn->close();
+?>
