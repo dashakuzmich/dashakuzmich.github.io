@@ -42,7 +42,7 @@ p {
 }
 .header {
   margin: 0 auto;
-  padding-top: 29px;
+  padding-top: 28px;
   max-width: 1440px;
   display: flex;
   justify-content: center;
@@ -88,7 +88,7 @@ p {
   width: 200px;
 }
 .about__content {
-  margin: 5% auto 0;
+  margin: 100px auto 0;
 }
 .about__content-main {
   margin: 0 auto;
@@ -252,7 +252,7 @@ p {
   overflow: hidden;
 }
 .small-cloud img {
-  margin-right: -40px;
+  margin-right: 0px;
   object-fit: cover;
 }
 @keyframes float {
@@ -303,7 +303,7 @@ p {
 }
 .spheres-item p {
   text-shadow: 0px 2px 4px #00000067;
-  width: 450px;
+  width: 350px;
 }
 .spheres-item span {
   color: #ffffff;
@@ -313,7 +313,6 @@ p {
   margin-top: 5px;
 }
 .first-line {
-  margin-top: 100px;
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -341,7 +340,7 @@ p {
 }
 .services__content-main {
   max-width: 1440px;
-  margin: 13% auto 5%;
+  margin: 220px auto 5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -451,7 +450,7 @@ p {
   font-weight: 800;
 }
 .cases__content-btn {
-  margin-left: 60%;
+  margin-left: 850px;
   margin-top: -30px;
 }
 .cases-btn {
@@ -462,7 +461,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  width: 350px;
+  width: 450px;
   height: 250px;
 }
 .cases-btn p {
@@ -511,7 +510,7 @@ p {
 }
 .vacancy__content-btn {
   margin-left: 55%;
-  margin-top: -250px;
+  margin-top: -200px;
 }
 .vacancy-btn {
   display: flex;
@@ -520,8 +519,8 @@ p {
   background-image: url(../ico/vacancyBtn.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 400px;
-  height: 150px;
+  width: 490px;
+  height: 180px;
 }
 .vacancy-btn p {
   text-align: center;
@@ -530,6 +529,268 @@ p {
   font-size: 28px;
 }
 
+@media (max-width: 1181px) {
+  .header {
+    padding-top: 15px;
+    max-width: 1100px;
+    font-size: 22px;
+  }
+  .home__content-btn {
+    margin-left: 760px;
+  }
+  .main-btn {
+    width: 325px;
+    height: 225px;
+  }
+  .about__content {
+    margin-top: 20px;
+  }
+  .about__content-main {
+    max-width: 1100px;
+  }
+  .about-title {
+    width: 550px;
+  }
+  .about__content-subtitle {
+    font-size: 30px;
+  }
+  .about__content-discription {
+    margin-top: 90px;
+    width: 1100px;
+    font-size: 56px;
+  }
+  .about__content-stars--item {
+    margin-top: -130px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0px;
+    width: 150px;
+    overflow: hidden;
+  }
+  .about__content-stars img:first-child {
+    width: 80px;
+    height: 80px;
+  }
+  .about__content-stars img:nth-child(2) {
+    width: 250px;
+    height: 250px;
+  }
+  .about__content-stars img:last-child {
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 80px;
+  }
+  .about__content-infographics {
+    margin-top: 100px;
+    gap: 40px;
+  }
+  .about__content-infographics--item {
+    font-size: 22px;
+  }
+  .about__content-infographics--item p {
+    width: 250px;
+  }
+  .item-ico img {
+    width: 150px;
+  }
+  .about__banner {
+    gap: 25px;
+    margin-top: 50px;
+  }
+  .banner {
+    font-size: 56px;
+  }
+  .banner-ico {
+    width: 70px;
+    height: 70px;
+  }
+  .founders__content-title {
+    margin-top: 130px;
+    font-size: 144px;
+  }
+  .founders__content-description--title {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  .founders__content-description--title p {
+    width: 500px;
+  }
+  .founders__content-description--subtitle {
+    font-size: 22px;
+  }
+  .founders__content-description--photo .photo {
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .photo-alla {
+    width: 395px;
+    height: 425px;
+  }
+  .photo-nadya {
+    margin-left: -200px;
+    margin-top: 100px;
+    width: 410px;
+    height: 370px;
+  }
+  .small-cloud {
+    top: -250px;
+  }
+  .small-cloud img {
+    width: 300px;
+    height: 300px;
+  }
+  .big-cloud {
+    top: 200px;
+    left: -90px;
+  }
+  .big-cloud img {
+    width: 400px;
+    height: 400px;
+    margin-left: -130px;
+  }
+  .spheres__content {
+    margin: 280px auto 0;
+  }
+  .spheres-item p {
+    font-size: 20px;
+    width: 280px;
+  }
+  .spheres-item span {
+    font-size: 14px;
+  }
+  .second-line img {
+    width: 450px;
+  }
+  .first-line {
+    margin-top: 0px;
+    gap: 20px;
+  }
+  .first-line p:nth-child(2) {
+    margin-top: -50px;
+  }
+  .third-line {
+    margin-top: 70px;
+    gap: 20px;
+  }
+  .third-line p:nth-child(2) {
+    margin-top: 50px;
+  }
+  .services__content-main {
+    max-width: 1100px;
+    margin-top: 160px;
+  }
+  .services-title {
+    width: 550px;
+  }
+  .services__content-subtitle {
+    font-size: 30px;
+  }
+  .services__content-stars--item {
+    top: -100px;
+    width: 250px;
+  }
+  .services__content-stars--item img {
+    width: 200px;
+    height: 200px;
+    margin-right: -250px;
+  }
+  .services__content-stars--item img:nth-child(2n) {
+    width: 80px;
+    height: 80px;
+  }
+  .services__content-grid {
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(2, 450px);
+    row-gap: 0px;
+    margin-left: 0px;
+  }
+  .services__content-grid--item-title {
+    font-size: 36px;
+    margin-left: 20px;
+  }
+  .services__content-grid--item-elem {
+    padding-top: 15%;
+    height: 400px;
+    width: 550px;
+    margin-left: 0px;
+  }
+  .elem__group {
+    width: 120px;
+  }
+  .elem__group:nth-child(2n) {
+    margin-top: -150px;
+  }
+  .elem__group p {
+    font-size: 13px;
+  }
+  .elem__group img {
+    width: 65px;
+    height: 65px;
+  }
+  .cases__content {
+    margin: 250px auto 0;
+    max-width: 1100px;
+  }
+  .cases__content-title {
+    font-size: 109px;
+  }
+  .cases__content-subtitle {
+    font-size: 32px;
+  }
+  .cases__content-description {
+    font-size: 26px;
+  }
+  .cases__content-btn {
+    margin-left: 590px;
+    margin-top: 0px;
+  }
+  .cases-btn {
+    width: 350px;
+  }
+  .cases-btn p {
+    font-size: 22px;
+  }
+  .vacancy__content {
+    padding-bottom: 50px;
+    margin-top: 70px;
+  }
+  .vacancy__content-main {
+    margin-left: 150px;
+  }
+  .vacancy-title {
+    width: 750px;
+  }
+  .vacancy__content-subtitle {
+    font-size: 20px;
+  }
+  .vacancy__content-item {
+    font-size: 18px;
+  }
+  .vacancy__content-items {
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .vacancy__content-item img {
+    width: 60px;
+    margin-left: 20px;
+  }
+  .vacancy-item span {
+    font-size: 20px;
+  }
+  .vacancy__content-btn {
+    margin-left: 55%;
+    margin-top: -180px;
+  }
+  .vacancy-btn {
+    width: 400px;
+    height: 150px;
+  }
+  .vacancy-btn p {
+    font-size: 20px;
+  }
+}
 @media (max-width: 1025px) {
   .header {
     padding-top: 10px;
@@ -543,6 +804,9 @@ p {
   .main-btn {
     width: 295px;
     height: 195px;
+  }
+  .main-btn p {
+    font-size: 20px;
   }
   .about__content {
     margin-top: 20px;
@@ -562,23 +826,20 @@ p {
     font-size: 52px;
   }
   .about__content-stars--item {
-    margin-right: -100px;
-    margin-top: -80px;
+    margin-top: -60px;
+    width: 105px;
   }
   .about__content-stars img:first-child {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
   }
   .about__content-stars img:nth-child(2) {
-    margin-top: -10px;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
   }
   .about__content-stars img:last-child {
-    width: 80px;
-    height: 80px;
-    margin-top: 10px;
-    margin-left: 60px;
+    width: 60px;
+    height: 60px;
   }
   .about__content-infographics {
     margin-top: 100px;
@@ -633,8 +894,9 @@ p {
     height: 350px;
   }
   .small-cloud {
-    top: -250px;
-    margin-right: -70px;
+    top: -230px;
+    right: 0;
+    width: 200px;
   }
   .small-cloud img {
     width: 300px;
@@ -650,8 +912,7 @@ p {
     margin-left: -130px;
   }
   .spheres__content {
-    margin: 160px auto 0;
-    max-width: 980px;
+    margin: 150px auto 0;
   }
   .spheres-item p {
     font-size: 20px;
@@ -689,12 +950,11 @@ p {
     font-size: 25px;
   }
   .services__content-stars--item {
-    top: -150px;
-    margin-right: -25px;
+    top: 180px;
   }
   .services__content-stars--item img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
   }
   .services__content-grid {
     grid-template-columns: repeat(2, 500px);
@@ -726,7 +986,7 @@ p {
     height: 65px;
   }
   .cases__content {
-    margin: 130px auto 0;
+    margin: 110px auto 0;
     max-width: 980px;
   }
   .cases__content-title {
@@ -764,13 +1024,8 @@ p {
   .vacancy__content-item {
     font-size: 18px;
   }
-  .vacancy__content-items {
-    margin-top: 20px;
-    margin-left: 50px;
-  }
   .vacancy__content-item img {
     width: 60px;
-    margin-left: 20px;
   }
   .vacancy-item span {
     font-size: 20px;
@@ -780,12 +1035,14 @@ p {
     margin-top: -180px;
   }
   .vacancy-btn {
+    width: 400px;
+    height: 150px;
   }
   .vacancy-btn p {
     font-size: 20px;
   }
 }
-@media (max-width: 769px) {
+@media (max-width: 821px) {
   .container {
     background-image: url(../img/bcgPlansh.png);
     background-repeat: no-repeat;
@@ -794,7 +1051,7 @@ p {
   .header {
     padding-top: 30px;
     max-width: 740px;
-    font-size: 24px;
+    font-size: 28px;
   }
   .header__list {
     margin-left: 15px;
@@ -816,21 +1073,22 @@ p {
     font-size: 22px;
   }
   .about__content {
-    margin-top: 25%;
+    margin-top: 200px;
   }
   .about__content-main {
     max-width: 740px;
     gap: 30px;
   }
   .about-title {
-    width: 380px;
+    width: 430px;
   }
   .about__content-subtitle {
-    font-size: 20px;
+    font-size: 22px;
   }
   .about__content-discription {
+    max-width: 790px;
     margin-top: 135px;
-    font-size: 52px;
+    font-size: 58px;
   }
   .about__content-stars--item {
     margin-top: 100px;
@@ -848,13 +1106,16 @@ p {
   .item-ico img {
     width: 120px;
   }
+  .about__banner {
+    gap: 15px;
+    margin-top: 150px;
+  }
   .banner {
-    margin: 28% auto 0;
-    font-size: 57px;
-    width: 690px;
+    font-size: 46px;
+    max-width: 740px;
   }
   .founders__content-title {
-    margin-top: 20%;
+    margin-top: 300px;
     font-size: 92px;
   }
   .founders__content-description {
@@ -894,7 +1155,7 @@ p {
     height: 500px;
   }
   .spheres__content {
-    margin-top: 25%;
+    margin-top: 200px;
   }
   .small-cloud {
     top: -150px;
@@ -920,28 +1181,31 @@ p {
     width: 440px;
     height: 440px;
     margin-left: -170px;
-    margin-top: -40px;
+    margin-top: 40px;
   }
   .spheres-item {
     text-align: center;
   }
   .spheres-item p {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 26px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    font-size: 28px;
+    width: 700px;
   }
   .spheres-item span {
     font-size: 16px;
   }
   .first-line {
-    margin-top: 0px;
-    display: block;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
   }
   .first-line p:nth-child(2) {
     margin-top: 0px;
   }
   .second-line {
-    margin-top: 15px;
+    margin-top: 0px;
     display: block;
   }
   .second-line p {
@@ -968,13 +1232,13 @@ p {
   .services__content-main {
     max-width: 740px;
     gap: 30px;
-    margin-top: 35%;
+    margin-top: 220px;
   }
   .services-title {
-    width: 380px;
+    width: 430px;
   }
   .services__content-subtitle {
-    font-size: 20px;
+    font-size: 22px;
   }
   .services__content-grid {
     display: block;
@@ -982,15 +1246,14 @@ p {
     margin: 15% 0 0 40px;
   }
   .services__content-grid--item-title {
-    margin-left: 40px;
+    margin-left: 0px;
     margin-bottom: 20px;
     font-size: 38px;
-    text-align: left;
+    text-align: center;
   }
   .services__content-grid--item-elem {
     padding-top: 0px;
-    margin-left: -40px;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1015,7 +1278,6 @@ p {
     width: 50px;
     height: 50px;
   }
-
   .elem__group:nth-child(2n) {
     margin-top: 0px;
   }
@@ -1023,7 +1285,7 @@ p {
     top: 200px;
   }
   .cases__content {
-    margin: 60% auto 0;
+    margin: 550px auto 0;
     max-width: 740px;
   }
   .cases__content-title {
@@ -1036,24 +1298,30 @@ p {
     font-size: 23px;
   }
   .cases__content-btn {
-    width: 350px;
-    margin: 30px auto 0;
+    margin: 20px;
   }
   .cases-btn {
-    margin-left: 15px;
+    margin-left: 305px;
+    width: 400px;
+  }
+  .cases-btn p {
+    font-size: 24px;
   }
   .vacancy__content {
-    margin-top: 32%;
+    margin-top: 280px;
     padding-bottom: 10px;
   }
   .vacancy__content-title {
-    margin-left: 40px;
+    margin-left: 0px;
   }
   .vacancy-title {
     width: 640px;
   }
   .vacancy__content-subtitle {
     font-size: 26px;
+  }
+  .vacancy__content-main {
+    margin-left: 40px;
   }
   .vacancy__content-items {
     margin-top: 60px;
@@ -1064,11 +1332,11 @@ p {
     font-size: 20px;
     font-weight: 700;
     margin-top: 30px;
-    width: 460px;
+    width: 560px;
   }
   .vacancy__content-item img {
-    width: 75px;
-    margin-left: 20px;
+    width: 70px;
+    margin-left: 0px;
   }
   .vacancy-item span {
     font-size: 16px;
@@ -1078,10 +1346,162 @@ p {
     margin: 0 auto;
   }
   .vacancy-btn {
+    width: 370px;
+    height: 130px;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .vacancy-btn p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 769px) {
+  .about__content {
+    margin-top: 170px;
+  }
+  .about__content-main {
+    max-width: 710px;
+  }
+  .about-title {
+    width: 380px;
+  }
+  .about__content-subtitle {
+    font-size: 20px;
+  }
+  .about__content-discription {
+    max-width: 740px;
+  }
+  .about__content-infographics {
+    margin-top: 450px;
+    gap: 15px;
+  }
+  .about__content-infographics--item {
+    font-size: 16px;
+  }
+  .item-ico img {
+    width: 120px;
+  }
+  .about__banner {
+    gap: 15px;
+    margin-top: 120px;
+  }
+  .banner {
+    font-size: 46px;
+    max-width: 740px;
+  }
+  .founders__content-title {
+    margin-top: 300px;
+    font-size: 92px;
+  }
+  .founders__content-description {
+    display: block;
+  }
+  .founders__content-description--title {
+    margin-top: -30px;
+    font-size: 24px;
+  }
+  .founders__content-description--title p {
+    width: 480px;
+  }
+  .founders__content-description--subtitle {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .founders__content-description--photo .photo {
+    display: none;
+  }
+  .founders__content-description--photo-mobile {
+    display: block;
+  }
+  .photo-mobile {
+    display: flex;
+    max-width: 375px;
+  }
+  .photo-alla-mobile {
+    margin-top: -55px;
+    margin-left: 165px;
+    width: 445px;
+    height: 490px;
+  }
+  .photo-nadya-mobile {
+    margin-top: 40px;
+    margin-left: -280px;
+    width: 600px;
+    height: 500px;
+  }
+  .spheres__content {
+    margin-top: 130px;
+  }
+  .services__content-main {
+    max-width: 740px;
+    gap: 30px;
+    margin-top: 150px;
+  }
+  .services__content-stars--item {
+    top: 200px;
+  }
+  .cases__content {
+    margin: 350px auto 0;
+    max-width: 740px;
+  }
+  .cases__content-title {
+    font-size: 124px;
+  }
+  .cases__content-subtitle {
+    font-size: 36px;
+  }
+  .cases__content-btn {
+    margin-left: 50px;
+  }
+  .cases-btn {
+    margin: 0 auto;
+  }
+  .cases-btn p {
+    font-size: 24px;
+  }
+  .vacancy__content {
+    margin-top: 280px;
+    padding-bottom: 10px;
+  }
+  .vacancy__content-title {
+    margin-left: 0px;
+  }
+  .vacancy-title {
+    width: 640px;
+  }
+  .vacancy__content-subtitle {
+    font-size: 26px;
+  }
+  .vacancy__content-main {
+    margin-left: 40px;
+  }
+  .vacancy__content-items {
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+  .vacancy__content-item {
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    width: 560px;
+  }
+  .vacancy__content-item img {
+    width: 70px;
+    margin-left: 0px;
+  }
+  .vacancy-item span {
+    font-size: 16px;
+  }
+  .vacancy__content-btn {
     width: 350px;
-    height: 200px;
-    margin-left: 30%;
-    margin-top: 0px;
+    margin: 0 auto;
+  }
+  .vacancy-btn {
+    width: 370px;
+    height: 130px;
+    margin-left: 0;
+    margin-top: 30px;
   }
   .vacancy-btn p {
     font-size: 18px;
